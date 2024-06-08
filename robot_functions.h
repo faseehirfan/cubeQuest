@@ -8,5 +8,10 @@ int intialSearch();
 bool searchCube();
 void intake(int vel);
 void driveStop();
+void clockWiseTurn(int degrees);
+void counterTurn(int degrees);
+void allignWall(int time, int vel);
+bool searchWall();
+void scoreThenBack();
 
 #endif
